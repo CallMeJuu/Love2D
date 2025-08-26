@@ -9,8 +9,8 @@ function Player.new(x, y)
     player.x = x or 0
     player.y = y or 0
     player.speed = 150
-    player.scaleX = 2
-    player.scaleY = 2
+    player.scaleX = 1.5
+    player.scaleY = 1.5
     player.flipH = false
     player.flipV = false
     player.dir = "down"
